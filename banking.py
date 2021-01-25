@@ -155,7 +155,8 @@ class BankingSystem:
             elif mng_choice == '0':
                 print('\nBye!')
                 exit(0)
-
+    
+    # Fonction permattant d'afficher tous les comptes
     def all_count(self):
         cur = self.conn.cursor()
         cur.execute("select * from card")
