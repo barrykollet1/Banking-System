@@ -179,7 +179,7 @@ class BankingSystem:
                 if self.login_account(num_card, code_pin):
                     self.account_menu(num_card)
             elif trans_choice == '3':
-                # self.all_count()
+                self.all_count()
                 pass
             elif trans_choice == '0':
                 print()
