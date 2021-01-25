@@ -187,5 +187,7 @@ class BankingSystem:
                 break
 
 
+# Instanciation de la classe
 my_card = BankingSystem()
+# Execution du programme
 my_card.bank_menu()
